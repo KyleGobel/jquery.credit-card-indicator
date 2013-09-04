@@ -1,0 +1,58 @@
+/* line 1, D:/Programming/jquery.credit-card-indicator/jquery.credit-card-indicator/sass/jquery.credit-card-indicator.scss */
+.placeholder {
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+/* line 6, D:/Programming/jquery.credit-card-indicator/jquery.credit-card-indicator/sass/jquery.credit-card-indicator.scss */
+ul.credit-card-icons {
+  margin: 5px 0;
+  list-style-type: none;
+  position: absolute;
+  width: 180px;
+  height: 25px;
+}
+/* line 16, D:/Programming/jquery.credit-card-indicator/jquery.credit-card-indicator/sass/jquery.credit-card-indicator.scss */
+ul.credit-card-icons li {
+  float: left;
+  display: block !important;
+  width: 40px !important;
+  height: 25px !important;
+  margin: 0 3px 0 0;
+  padding: 0;
+  border: none;
+  background: url(../images/credit-card-logos.png) no-repeat;
+}
+/* line 25, D:/Programming/jquery.credit-card-indicator/jquery.credit-card-indicator/sass/jquery.credit-card-indicator.scss */
+ul.credit-card-icons li.amex {
+  background-position: 0 0;
+}
+/* line 29, D:/Programming/jquery.credit-card-indicator/jquery.credit-card-indicator/sass/jquery.credit-card-indicator.scss */
+ul.credit-card-icons li.amex-greyscale {
+  background-position: 0 -25px;
+}
+/* line 33, D:/Programming/jquery.credit-card-indicator/jquery.credit-card-indicator/sass/jquery.credit-card-indicator.scss */
+ul.credit-card-icons li.discover {
+  background-position: -40px 0;
+}
+/* line 37, D:/Programming/jquery.credit-card-indicator/jquery.credit-card-indicator/sass/jquery.credit-card-indicator.scss */
+ul.credit-card-icons li.discover-greyscale {
+  background-position: -40px -25px;
+}
+/* line 41, D:/Programming/jquery.credit-card-indicator/jquery.credit-card-indicator/sass/jquery.credit-card-indicator.scss */
+ul.credit-card-icons li.mastercard {
+  background-position: -120px 0;
+}
+/* line 45, D:/Programming/jquery.credit-card-indicator/jquery.credit-card-indicator/sass/jquery.credit-card-indicator.scss */
+ul.credit-card-icons li.mastercard-greyscale {
+  background-position: -120px -25px;
+}
+/* line 49, D:/Programming/jquery.credit-card-indicator/jquery.credit-card-indicator/sass/jquery.credit-card-indicator.scss */
+ul.credit-card-icons li.visa {
+  background-position: -80px 0;
+}
+/* line 53, D:/Programming/jquery.credit-card-indicator/jquery.credit-card-indicator/sass/jquery.credit-card-indicator.scss */
+ul.credit-card-icons li.visa-greyscale {
+  background-position: -80px -25px;
+}

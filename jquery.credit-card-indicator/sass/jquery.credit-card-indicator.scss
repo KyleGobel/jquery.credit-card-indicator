@@ -1,0 +1,63 @@
+.placeholder {
+        position:relative;
+        width:0;
+        height:0;
+}
+ul.credit-card-icons {
+        $credit-card-sprite: url(../images/credit-card-logos.png);
+        $credit-card-single-width: 40px;
+        $credit-card-single-height: 25px;
+		$spacing-inbetween: 5px;
+        margin: $spacing-inbetween 0;
+        list-style-type:none;
+        position:absolute;
+        width: $credit-card-single-width*4 + ($spacing-inbetween *4);
+        height: $credit-card-single-height;
+        li {
+                float:left;
+                display:block!important;
+                width:$credit-card-single-width!important;
+                height:$credit-card-single-height!important;
+				margin:0 3px 0 0;
+                padding:0;
+                border:none;
+				background: url(../images/credit-card-logos.png) no-repeat;
+				&.amex{
+					background-position: 0 0;
+				}
+
+				&.amex-greyscale{
+					background-position: 0 -25px ;
+				}
+
+				&.discover{
+					background-position: -40px 0;
+				}
+
+				&.discover-greyscale{
+					background-position: -40px -25px ;
+				}
+
+				&.mastercard{
+					background-position: -120px 0;
+				}
+
+				&.mastercard-greyscale{
+					background-position: -120px -25px ;
+				}
+
+				&.visa{
+					background-position: -80px 0;
+				}
+
+				&.visa-greyscale{
+					background-position: -80px -25px ;
+				}
+									
+               
+        }
+}
+
+
+
+

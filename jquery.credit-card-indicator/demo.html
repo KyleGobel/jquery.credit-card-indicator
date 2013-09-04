@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Credit Card Indicator Demo</title>
+
+    <script src="Scripts/jquery-2.0.3.js"></script>
+    <script src="Scripts/jquery.credit-card-indicator.js"></script>
+    
+    <script type="text/javascript">
+        $(function () {
+            $('input[type=text]').creditCardIndicator(106, -32);
+        });
+    </script>
+    
+    <style>
+        body {
+            font-family:arial;
+            font-size:12px;
+        }
+        input[type=text] {
+            width: 310px;
+        }
+        div.container {
+            margin-top:50px;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        The scss and css files are not actually needed.  <br/>
+        They were just there to help me get the inital styles correct.<br/>
+        The styles are now inline styles within the javascript file.
+    </p>
+    <div class="container">
+        Credit Card Number <br/>
+        <input type="text" placeholder="Credit Card Number" />
+    </div>
+</body>
+</html>
