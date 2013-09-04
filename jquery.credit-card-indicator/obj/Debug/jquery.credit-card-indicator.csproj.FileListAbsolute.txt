@@ -1,0 +1,5 @@
+D:\Programming\jquery.credit-card-indicator\jquery.credit-card-indicator\bin\jquery.credit-card-indicator.dll
+D:\Programming\jquery.credit-card-indicator\jquery.credit-card-indicator\bin\jquery.credit-card-indicator.pdb
+D:\Programming\jquery.credit-card-indicator\jquery.credit-card-indicator\obj\Debug\jquery.credit-card-indicator.csprojResolveAssemblyReference.cache
+D:\Programming\jquery.credit-card-indicator\jquery.credit-card-indicator\obj\Debug\jquery.credit-card-indicator.dll
+D:\Programming\jquery.credit-card-indicator\jquery.credit-card-indicator\obj\Debug\jquery.credit-card-indicator.pdb
